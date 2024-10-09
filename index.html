@@ -4,22 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MI349_Blog</title>
-    <link rel="stylesheet" href="screen.css">
 </head>
 
 <style> /* I have no clue why these changes dont work on the css file so im giving up and putting it right here */
     body {
         margin: 0;
-        font-family: Arial, sans-serif;
+        background: #b8fdff;
+        font-family: Helvetica, sans-serif;
+        border-top: 15px solid #424242;
+        color: #000000;
     }
     header {
-        background-color: #82aaff; 
+        background-color: #82aaff;
+        font-family: Helvetica, sans-serif; 
         border: 1px solid #0080ff; 
         padding: 20px; 
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-        position: fixed; 
         top: 0;
         width: 100%; 
+        text-align: center;
+    }
+
+    h1 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 52px;
+        color: rgb(56, 18, 128);
+    }
+
+    .details section {
+        flex-grow: 1;
+        flex-basis: 0;
+        background: #aabfeb;
+        border-radius: 20px;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 25px;
         text-align: center;
     }
 
@@ -52,6 +72,14 @@
     nav ul li a:hover {
         text-decoration: underline; 
     }
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        margin: 0 auto;
+    }
 </style>
 
 <body>
@@ -59,6 +87,7 @@
         <header>
             <h1>David's Blog</h1>
             <p>Welcome to David's Blog! Here you can find updates about different topics and see how the page develops!</p>
+            <p>Published: 10/13 Author: David Boman</p>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -68,7 +97,7 @@
             </nav>
         </header>
         <section>
-            <h2>Today's Blog Post</h2>
+            <h2>Today's Blog Posts:</h2>
         </section>
         <div class="image-container">
             <img src="images/graduation.png" alt="Picture of my favorite album cover">
