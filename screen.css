@@ -1,22 +1,21 @@
 body {
     background: #b8fdff;
     font-family: Helvetica, sans-serif;
-    border-top: 15px solid #424242;
+    border-top: 15px solid #862999;
     color: #ff006a;
 }
 
 header {
-    background: #ba67ff
+    background-color: #ba67ff;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 main {
-    margin: 0 auto;
-    width: 800px;
-}
-
-.masthead {
-    background: no-repeat bottom / cover url('Images/graduation.png');
-    border-radius: 20px;
+    margin: 0;
 }
 
 .details {
@@ -27,42 +26,13 @@ main {
 .details section {
     flex-grow: 1;
     flex-basis: 0;
-    background: #E9EAEC;
+    background: #aabfeb;
     border-radius: 20px;
     margin-top: 25px;
-}
-
-.details section p {
-    margin: 20px;
-}
-
-.details section h2 {
-    margin: 20px;
-}
-
-.details section.with-code {
-    padding: 0;
-}
-
-div.code-html {
-    padding: 25px;
-    background: #424242;
-    color: #fff;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
 }
 
 img {
     width: 100%;
 }
 
-h1 {
-    background-position: center;
-    font-size: 3em;
-    margin: auto;
-}
-
-h2 {
-    margin: 0 0 10px 0;
-}
 
