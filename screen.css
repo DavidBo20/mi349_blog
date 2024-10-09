@@ -1,8 +1,8 @@
 body {
     background: #b8fdff;
     font-family: Helvetica, sans-serif;
-    border-top: 15px solid #862999;
-    color: #ff006a;
+    border-top: 15px solid #424242;
+    color: #000000;
 }
 
 header {
@@ -29,10 +29,6 @@ main {
     background: #aabfeb;
     border-radius: 20px;
     margin-top: 25px;
-}
-
-img {
-    width: 100%;
 }
 
 
