@@ -1,112 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
-    body {
-        margin: 0;
-        background: #b8fdff;
-        font-family: Helvetica, sans-serif;
-        border-top: 15px solid rgb(56, 18, 128);
-        color: #000000;
-    }
-
-    header {
-        background-color: #82aaff;
-        font-family: Helvetica, sans-serif; 
-        border: 1px solid #0080ff; 
-        padding: 10px; 
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-        top: 0;
-        width: 100%; 
-        text-align: center;
-    }
-
-    .details {
-        display: flex;
-        gap: 25px;
-    }
-
-    .details section {
-        flex-grow: 1;
-        flex-basis: 0;
-        background: #54c3d1;
-        border-radius: 20px;
-        margin-top: 15px;
-    }
-
-    .image-container {
-        display: flex; 
-        justify-content: space-around; 
-
-        padding: 25px; 
-    }
-
-    .image-container img {
-        width: 30%; 
-        height: auto;
-    }
-
-    .details section p {
-        margin: 20px;
-    }
-
-    .details section h2 {
-        margin: 20px;
-    }
-
-    .details section.with-code {
-        padding: 0;
-    }
-
-    div.code-html {
-        padding: 5px;
-        background: #0050fc;
-        color: #fff;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-    }
-
-    h1 {
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 52px;
-        color: rgb(56, 18, 128);
-    }
-
-    h2 {
-    margin: 0 0 10px 0;
-    text-align: center;
-    }   
-
-    p {
-    margin: 0;
-    line-height: 1.4em;
-    }
-
-    nav ul {
-        list-style: none;
-        text-align: center; 
-        padding: 0;
-        margin: 0;
-        display: flex;
-    }
-
-    nav ul li {
-        margin-right: 20px; 
-    }
-
-    nav ul li a {
-        text-decoration: none; 
-        color: #0c8b70; 
-    }
-
-    nav ul li a:hover {
-        text-decoration: underline; 
-    }
-
-</style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="stylesheet" href="screen.css">
 </head>
 <body>
     <main>
@@ -121,12 +19,12 @@
                 </ul>
             </nav>
         </header>
-        <div class="image-container">
+        <div class="about-image-container">
             <img src="images/me_on_rock.jpg" alt="Picture of me on vacation last summer">
             <img src="images/me_firework.jpg" alt="Picture of me on vacation last summer (again)">
             <img src="images/me_stadium.jpg" alt="Picture of me at Spartan Stadium">
         </div>
-        <div class="details">
+        <div class="about_details">
             <section>
                 <h2>All about me</h2>
                 <p>     Hello! My name is David Boman and welcome to the about me page on my website! I am a junior at Michigan State University and I major in Information Science. I was initially a Computer Science major but decided to change after realizing that I hate coding and did not want to do that for the rest of my life. However, I still would like to pursue a career in the tech industry. </p>
